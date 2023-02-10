@@ -1,0 +1,48 @@
+body {
+    background-color: #9b9b9b;
+}
+
+figure {
+    float: left;
+    position: relative;
+    margin: 0px 20px 20px 0px;
+}
+
+img {
+    border-radius: 16px;
+}
+
+section {
+    background-color: #595959;
+    margin-top: 50px;
+    border-radius: 20px;
+    position: relative;
+    padding: 22px 0 0 22px;
+}
+
+section::after{
+    display: block;
+    content: 'hello';
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 30px;
+    background-color: #00000066;
+    color: white;
+    width: 100%;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 50px;
+    position: absolute;
+    top: -45px;
+    left: 20px;
+    margin: 0;
+    color: #595959;
+}
